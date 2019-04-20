@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:lastest
+FROM microsoft/dotnet:latest
 WORKDIR /app
 COPY /. /app
 RUN dotnet restore

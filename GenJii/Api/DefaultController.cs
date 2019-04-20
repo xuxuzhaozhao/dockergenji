@@ -22,7 +22,7 @@ namespace GenJii.Api
         [HttpGet("{id}", Name = "Get")]
         public string Get(int id)
         {
-            return $"You input id: {id}. Now Time is {DateTime.Now}";
+            return $"My Name is xuchengyi.How are you !You input id: {id}. Now Time is {DateTime.Now}";
         }
 
         // POST: api/Default
