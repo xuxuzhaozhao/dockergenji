@@ -13,9 +13,14 @@ namespace GenJii.Api
     {
         // GET: api/Default
         [HttpGet]
-        public IEnumerable<string> Get()
+        public object Get()
         {
-            return new string[] { "value1", "value2" };
+            List<MyClass> myClasses = new List<MyClass>();
+            for (int i = 0; i < 5; i++)
+            {
+                myClasses.Add(new MyClass() { ID = i, Name = $"xucheng{i}" });
+            }
+            return myClasses;
         }
 
         // GET: api/Default/5
@@ -42,5 +47,11 @@ namespace GenJii.Api
         public void Delete(int id)
         {
         }
+    }
+
+    class MyClass
+    {
+        public string Name { get; set; }
+        public int ID { get; set; }
     }
 }
