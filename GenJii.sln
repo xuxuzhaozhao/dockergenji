@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenJii", "GenJii\GenJii.csproj", "{DC8A0276-BC40-4ED5-B2F9-D52FB4F7646B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenJii", "GenJii\GenJii.csproj", "{DC8A0276-BC40-4ED5-B2F9-D52FB4F7646B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventBus", "EventBus", "{C23B4286-9D6E-4F10-9E59-C5E225718806}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBusTest", "EventBusTest\EventBusTest.csproj", "{9351E2DC-64D3-48E9-9C3F-E1D7E658EB78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOCTest", "IOCTest\IOCTest.csproj", "{46E86B2E-D61A-4069-B362-E54F33013D1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,21 @@ Global
 		{DC8A0276-BC40-4ED5-B2F9-D52FB4F7646B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC8A0276-BC40-4ED5-B2F9-D52FB4F7646B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC8A0276-BC40-4ED5-B2F9-D52FB4F7646B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9351E2DC-64D3-48E9-9C3F-E1D7E658EB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9351E2DC-64D3-48E9-9C3F-E1D7E658EB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9351E2DC-64D3-48E9-9C3F-E1D7E658EB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9351E2DC-64D3-48E9-9C3F-E1D7E658EB78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E86B2E-D61A-4069-B362-E54F33013D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E86B2E-D61A-4069-B362-E54F33013D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E86B2E-D61A-4069-B362-E54F33013D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E86B2E-D61A-4069-B362-E54F33013D1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9351E2DC-64D3-48E9-9C3F-E1D7E658EB78} = {C23B4286-9D6E-4F10-9E59-C5E225718806}
+		{46E86B2E-D61A-4069-B362-E54F33013D1D} = {C23B4286-9D6E-4F10-9E59-C5E225718806}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {877610EE-961C-44DE-A282-B4EF612F9063}
